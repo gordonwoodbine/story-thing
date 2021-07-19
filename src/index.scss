@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zen Loop';
+  padding: 0 2rem;
+  color: #333;
+}
+
+.page {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: 4rem;
+
+  a {
+    color: inherit;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: crimson;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  p {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    max-width: 500px;
+  }
+}
